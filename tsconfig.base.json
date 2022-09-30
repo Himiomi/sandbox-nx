@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@sandbox-nx/display": ["libs/display/src/index.ts"],
+      "@sandbox-nx/input": ["libs/input/src/index.ts"],
+      "@sandbox-nx/menu": ["libs/menu/src/index.ts"],
+      "@sandbox-nx/utils": ["libs/utils/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
